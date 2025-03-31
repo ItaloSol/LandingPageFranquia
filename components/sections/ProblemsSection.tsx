@@ -48,7 +48,7 @@ export function ProblemsSection() {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
           Você tem esses problemas quando vai escolher uma franquia para investir?
         </h2>
-        <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+        <p className="text-center text-dark-600 mb-12 max-w-2xl mx-auto">
           Conheça os principais desafios que os empreendedores enfrentam ao investir em franquias tradicionais
         </p>
         
@@ -56,13 +56,13 @@ export function ProblemsSection() {
           {problems.map((problem, index) => (
             <Card 
               key={index} 
-              className="p-6 bg-gradient-to-br from-[#000000] to-[#005E86] text-white shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
+              className="p-6 text-black bg-red-600/10 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
             >
               <div className="flex items-start space-x-4">
                 <problem.icon className="w-8 h-8 flex-shrink-0 text-red-500" />
                 <div>
                   <h3 className="text-lg font-semibold mb-2">{problem.title}</h3>
-                  <p className="text-gray-200 text-sm leading-relaxed">
+                  <p className="text-dark-200 text-sm leading-relaxed">
                     {problem.description}
                   </p>
                 </div>

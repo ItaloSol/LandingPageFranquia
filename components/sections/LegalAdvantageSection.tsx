@@ -16,7 +16,7 @@ export function LegalAdvantageSection() {
             Somos a única franquia do mercado que garante as escolas o enquadramento nas leis:
           </h3>
 
-          <Card className="p-8 mb-12 bg-gradient-to-br from-[#000000] to-[#005E86] text-white">
+          <Card className="p-8 mb-12 bg-gradient-to-br from-[#78c1ec] to-[#1c98d4] text-white">
             <div className="flex items-center justify-center gap-4 mb-6">
               <Scale className="w-8 h-8" />
               <p className="text-xl font-semibold">

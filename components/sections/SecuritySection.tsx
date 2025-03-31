@@ -66,9 +66,9 @@ export function SecuritySection() {
               </div>
             </Card>
 
-            <Card className="p-8 bg-gradient-to-br from-[#000000] to-[#005E86] text-white">
+            <Card className="p-8 bg-gradient-to-br from-[#78c1ec] to-[#1c98d4] text-white">
               <div className="flex flex-col items-center md:items-start md:flex-row gap-6">
-                <School className="w-16 h-16 text-blue-300 flex-shrink-0" />
+                <School className="w-16 h-16 text-green-600 flex-shrink-0" />
                 <div>
                   <p className="leading-relaxed mb-4">
                     Movido pelo instinto de pai e pelo espírito empreendedor, Leandro passou meses buscando uma solução que garantisse mais 
