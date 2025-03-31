@@ -98,3 +98,4 @@ export function HeroSection() {
     </section>
   );
 }
+export const url = "/og-image.png";

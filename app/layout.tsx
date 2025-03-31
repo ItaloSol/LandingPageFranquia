@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     images: ['/og-image.png'],
   },
   alternates: {
-    canonical: 'https://vendalandingpage.web.app/',
+    canonical: 'https://paitec.web.app/',
   },
   robots: {
     index: true,
