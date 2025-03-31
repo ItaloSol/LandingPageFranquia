@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
 export function SecuritySection() {
-  const whatsappLink = "https://wa.me/5521967392513?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
+  const whatsappLink = "https://wa.me/5521971731160?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
 
   return (
     <section className="py-20 bg-white">

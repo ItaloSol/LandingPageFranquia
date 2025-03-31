@@ -6,7 +6,7 @@ import { Card } from "@/components/ui/card";
 import Image from "next/image";
 
 export function HeroSection() {
-  const whatsappLink = "https://wa.me/5521967392513?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
+  const whatsappLink = "https://wa.me/5521971731160?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
 
   const images = [
     {

@@ -58,7 +58,7 @@ const benefits = [
 ];
 
 export function BenefitsSection() {
-  const whatsappLink = "https://wa.me/5521967392513?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
+  const whatsappLink = "https://wa.me/5521971731160?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
 
   return (
     <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
