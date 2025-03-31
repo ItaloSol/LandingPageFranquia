@@ -70,13 +70,13 @@ export function BenefitsSection() {
           {benefits.map((benefit, index) => (
             <Card 
               key={index} 
-              className="p-6 bg-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+              className="p-6 bg-gradient-to-br from-[#78c1ec] to-[#1c98d4] shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
             >
               <div className="flex items-start space-x-4">
-                <benefit.icon className="w-8 h-8 text-green-500 flex-shrink-0" />
+                <benefit.icon className="w-8 h-8 text-white flex-shrink-0" />
                 <div>
-                  <h3 className="text-lg font-semibold mb-2">{benefit.title}</h3>
-                  <p className="text-gray-600 text-sm">{benefit.description}</p>
+                  <h3 className="text-lg font-semibold mb-2 text-white">{benefit.title}</h3>
+                  <p className="text-white/90 text-sm">{benefit.description}</p>
                 </div>
               </div>
             </Card>
