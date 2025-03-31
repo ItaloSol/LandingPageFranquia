@@ -1,0 +1,33 @@
+# https://www.robotstxt.org/robotstxt.html
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://paitec.com.br/sitemap.xml
+
+# Prevent crawling of admin or private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+Disallow: /_next/static/
+
+# Allow crawling of static assets
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.ico$
+
+# Prevent crawling of search results
+Disallow: /*?*query=
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+
+# Prevent duplicate content indexing
+Disallow: /*?*page=
+Disallow: /*?*utm_
+Disallow: /*?*fbclid=
