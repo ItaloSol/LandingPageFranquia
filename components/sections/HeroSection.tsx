@@ -3,9 +3,29 @@
 import { Calendar, Coins, TrendingUp, Timer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import Image from "next/image";
 
 export function HeroSection() {
   const whatsappLink = "https://wa.me/5521967392513?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
+
+  const images = [
+    {
+      url: "https://images.unsplash.com/photo-1613896527026-f195d5c818ed?q=80&w=1200&auto=format&fit=crop",
+      alt: "Professor supervisionando alunos em sala de aula"
+    },
+    {
+      url: "https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=1200&auto=format&fit=crop",
+      alt: "Crianças em ambiente escolar seguro"
+    },
+    {
+      url: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1200&auto=format&fit=crop",
+      alt: "Monitoramento e segurança escolar"
+    },
+    {
+      url: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1200&auto=format&fit=crop",
+      alt: "Ambiente escolar moderno e seguro"
+    }
+  ];
 
   return (
     <section className="relative min-h-screen flex items-center bg-gradient-to-b from-white to-gray-50">
@@ -57,8 +77,20 @@ export function HeroSection() {
           </div>
 
           <div className="relative h-[300px] sm:h-[400px] md:h-[600px] rounded-2xl overflow-hidden shadow-2xl w-full">
-            <div className="absolute inset-0 bg-gradient-to-br from-[#000000] to-[#005E86] flex items-center justify-center text-white text-xl p-4 text-center">
-              VSL ou Imagem
+            <div className="grid grid-cols-2 grid-rows-2 h-full gap-1">
+              {images.map((image, index) => (
+                <div key={index} className="relative w-full h-full overflow-hidden">
+                  <Image
+                    src={image.url}
+                    alt={image.alt}
+                    fill
+                    className="object-cover transition-transform duration-300 hover:scale-110"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    priority={index === 0}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300" />
+                </div>
+              ))}
             </div>
           </div>
         </div>
