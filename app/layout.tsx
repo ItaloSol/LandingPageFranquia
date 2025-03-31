@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'PaiTec: Franquia com o Melhor Payback do Brasil',
     description: 'A PaiTec é uma franquia inovadora que combina tecnologia e proteção para garantir um ambiente escolar seguro, proporcionando tranquilidade para pais, crianças e instituições de ensino, com um retorno sobre o investimento em apenas 3 meses e exclusividade na região.',
-    images: ['/og-image.jpg'],
+    images: ['/og-image.png'],
   },
   alternates: {
     canonical: 'https://vendalandingpage.web.app/',
