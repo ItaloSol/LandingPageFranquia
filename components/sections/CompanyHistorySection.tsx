@@ -17,14 +17,8 @@ export function CompanyHistorySection() {
           </h2>
           
           <div className="grid md:grid-cols-2 gap-12 items-start">
-            <div className="relative aspect-[4/5] w-full rounded-2xl overflow-hidden shadow-xl">
-              <Image
-                src="https://images.unsplash.com/photo-1543269664-76bc3997d9ea?auto=format&fit=crop&q=80"
-                alt="Pai e filha"
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
+            <div className="relative aspect-[4/5] w-full rounded-2xl overflow-hidden shadow-xl flex items-center justify-center bg-gray-100">
+              <p className="text-gray-500 text-center p-4">Imagem será adicionada aqui</p>
             </div>
 
             <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-8 shadow-lg">
