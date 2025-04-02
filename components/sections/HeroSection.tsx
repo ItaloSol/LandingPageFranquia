@@ -3,94 +3,71 @@
 import { Calendar, Coins, TrendingUp, Timer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import Image from "next/image";
 
 export function HeroSection() {
-  const whatsappLink = "https://wa.me/5521971731160?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
-
-  const images = [
-    {
-      url: "https://images.unsplash.com/photo-1613896527026-f195d5c818ed?q=80&w=1200&auto=format&fit=crop",
-      alt: "Professor supervisionando alunos em sala de aula"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=1200&auto=format&fit=crop",
-      alt: "Crianças em ambiente escolar seguro"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1200&auto=format&fit=crop",
-      alt: "Monitoramento e segurança escolar"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1200&auto=format&fit=crop",
-      alt: "Ambiente escolar moderno e seguro"
-    }
-  ];
+  const whatsappLink = "https://wa.me/5521967392513?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
 
   return (
-    <section className="relative min-h-screen flex items-center bg-gradient-to-b from-white to-gray-50">
-      <div className="container px-4 mx-auto">
-        <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-12 items-center pt-4 md:pt-0">
-          <div className="text-left space-y-8 mt-8 md:mt-0">
-            <div className="space-y-6">
-              <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-green-400 leading-tight">
-                Seja dono da franquia com o melhor Payback do Brasil
-              </h1>
-              
-              <p className="text-xl md:text-2xl text-gray-700">
-                Única franquia que possibilita um Payback já no 3º mês de operação com exclusividade na sua região.
-              </p>
-            </div>
-            <div className="pt-4">
-              <Button 
-                className="bg-gradient-to-r from-green-400 to-green-600 text-black hover:from-green-500 hover:to-green-700 shadow-xl transform hover:scale-105 transition-all w-full sm:w-auto text-lg py-8 px-12 button-blink"
-                size="lg"
-                onClick={() => window.open(whatsappLink, '_blank')}
-              >
-                Agende sua análise <Calendar className="ml-2 h-6 w-6" />
-              </Button>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <Card className="p-6 bg-gradient-to-br from-[#78c1ec] to-[#1c98d4] border-none shadow-md hover:shadow-lg transition-shadow">
-                <div className="flex flex-col items-center text-center">
-                  <Coins className="h-12 w-12 text-white mb-3" />
-                  <p className="text-base font-medium text-white">Baixo investimento</p>
-                </div>
-              </Card>
+    <section className="relative bg-blue-400/10 min-h-[calc(100vh-4rem)] flex items-center py-12 md:py-0">
+      {/* Layered background with subtle patterns */}
+      <div className="absolute  inset-0  from-white to-gray-50" />
+      <div className="absolute  inset-0  opacity-30" />
+      <div className="absolute inset-0 gradient-overlay-light" />
+      
+      <div className="container px-4 mx-auto relative">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+            <div className="text-left space-y-8 lg:space-y-12 w-full">
+              <div className="space-y-4 lg:space-y-6">
+                <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-green-400 leading-tight">
+                  Seja dono da franquia com o melhor Payback do Brasil
+                </h1>
+                
+                <p className="text-lg sm:text-xl lg:text-2xl text-gray-700">
+                  Única franquia que possibilita um Payback já no 3º mês de operação com exclusividade na sua região.
+                </p>
+              </div>
 
-              <Card className="p-6 bg-gradient-to-br from-[#78c1ec] to-[#1c98d4] border-none shadow-md hover:shadow-lg transition-shadow">
-                <div className="flex flex-col items-center text-center">
-                  <TrendingUp className="h-12 w-12 text-white mb-3" />
-                  <p className="text-base font-medium text-white">Modelo eficiente</p>
-                </div>
-              </Card>
+              <div className="flex justify-center lg:justify-start">
+                <Button 
+                  className="w-full sm:w-auto bg-gradient-to-r from-green-400 to-green-600 text-black hover:from-green-500 hover:to-green-700 shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all text-lg sm:text-2xl py-6 sm:py-10 px-8 sm:px-16 rounded-xl button-blink"
+                  size="lg"
+                  onClick={() => window.open(whatsappLink, '_blank')}
+                >
+                  <span className="flex items-center justify-center gap-3">
+                    Agende sua análise <Calendar className="h-6 w-6 sm:h-8 sm:w-8" />
+                  </span>
+                </Button>
+              </div>
 
-              <Card className="p-6 bg-gradient-to-br from-[#78c1ec] to-[#1c98d4] border-none shadow-md hover:shadow-lg transition-shadow">
-                <div className="flex flex-col items-center text-center">
-                  <Timer className="h-12 w-12 text-white mb-3" />
-                  <p className="text-base font-medium text-white">Retorno rápido</p>
-                </div>
-              </Card>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <Card className="p-4 bg-gradient-to-br from-[#78c1ec] to-[#1c98d4] border-none shadow-md hover:shadow-lg transition-shadow">
+                  <div className="flex sm:flex-col items-center sm:text-center gap-3 sm:gap-0">
+                    <Coins className="h-6 w-6 sm:h-8 sm:w-8 text-white sm:mb-2" />
+                    <p className="text-sm font-medium text-white">Baixo investimento</p>
+                  </div>
+                </Card>
+
+                <Card className="p-4 bg-gradient-to-br from-[#78c1ec] to-[#1c98d4] border-none shadow-md hover:shadow-lg transition-shadow">
+                  <div className="flex sm:flex-col items-center sm:text-center gap-3 sm:gap-0">
+                    <TrendingUp className="h-6 w-6 sm:h-8 sm:w-8 text-white sm:mb-2" />
+                    <p className="text-sm font-medium text-white">Modelo eficiente</p>
+                  </div>
+                </Card>
+
+                <Card className="p-4 bg-gradient-to-br from-[#78c1ec] to-[#1c98d4] border-none shadow-md hover:shadow-lg transition-shadow">
+                  <div className="flex sm:flex-col items-center sm:text-center gap-3 sm:gap-0">
+                    <Timer className="h-6 w-6 sm:h-8 sm:w-8 text-white sm:mb-2" />
+                    <p className="text-sm font-medium text-white">Retorno rápido</p>
+                  </div>
+                </Card>
+              </div>
             </div>
-            
-            
-          </div>
 
-          <div className="relative h-[300px] sm:h-[400px] md:h-[600px] rounded-2xl overflow-hidden shadow-2xl w-full">
-            <div className="grid grid-cols-2 grid-rows-2 h-full gap-1">
-              {images.map((image, index) => (
-                <div key={index} className="relative w-full h-full overflow-hidden">
-                  <Image
-                    src={image.url}
-                    alt={image.alt}
-                    fill
-                    className="object-cover transition-transform duration-300 hover:scale-110"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    priority={index === 0}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300" />
-                </div>
-              ))}
+            <div className="relative h-[200px] sm:h-[300px] lg:h-[600px] rounded-2xl overflow-hidden shadow-2xl w-full bg-gray-100">
+              <div className="flex items-center justify-center h-full text-gray-400">
+                VSL ou Imagem 
+              </div>
             </div>
           </div>
         </div>
@@ -98,4 +75,3 @@ export function HeroSection() {
     </section>
   );
 }
-export const url = "/og-image.png";

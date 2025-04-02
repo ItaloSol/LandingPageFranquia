@@ -5,15 +5,19 @@ import { ProblemsSection } from "@/components/sections/ProblemsSection";
 import { BenefitsSection } from "@/components/sections/BenefitsSection";
 import { LegalAdvantageSection } from "@/components/sections/LegalAdvantageSection";
 import { SecuritySection } from "@/components/sections/SecuritySection";
-
-export default function Home() {
+import { CompanyHistorySection } from "@/components/sections/CompanyHistorySection";
+import { Footer } from "@/components/sections/Footer";
+ export default function Home() {
   return (
-    <main className="min-h-screen bg-white">
+    
+    <main className="min-h-screen" >
       <HeroSection />
       <ProblemsSection />
       <BenefitsSection />
       <LegalAdvantageSection />
       <SecuritySection />
+      <CompanyHistorySection />
+      <Footer />
     </main>
   );
 }

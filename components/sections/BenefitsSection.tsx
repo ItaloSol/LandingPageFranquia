@@ -58,15 +58,15 @@ const benefits = [
 ];
 
 export function BenefitsSection() {
-  const whatsappLink = "https://wa.me/5521971731160?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
+  const whatsappLink = "https://wa.me/5521967392513?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
 
   return (
-    <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
+    <section className="py-20  from-gray-50 to-white">
       <div className="container px-4 mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+        <h2 className="text-3xl md:text-4xl  font-bold text-center mb-12">
           Você busca uma franquia que te possibilite?
         </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {benefits.map((benefit, index) => (
             <Card 
               key={index} 
@@ -84,8 +84,8 @@ export function BenefitsSection() {
         </div>
 
         <div className="mt-16 text-center">
-          <p className="text-xl text-gray-700 mb-8">
-            Se você falou sim para algum desses tópicos temos uma condição exclusiva para você
+          <p className="text-2xl text-gray-800 mb-8">
+            Não perca mais tempo! Agende agora sua análise gratuita e descubra como a PaiTec pode ser a chave para o seu sucesso empresarial.
           </p>
           <Button 
             className="bg-gradient-to-r from-green-400 to-green-600 text-black hover:from-green-500 hover:to-green-700 shadow-xl transform hover:scale-105 transition-all text-lg py-8 px-12 button-blink"

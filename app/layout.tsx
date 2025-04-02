@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://paitec.web.app'),
   title: 'PAITEC',
   description: 'PaiTec: Franquia com o Melhor Payback do Brasil',
   openGraph: {
