@@ -40,24 +40,24 @@ export function HeroSection() {
                 </Button>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              <div className="grid grid-cols-3 sm:grid-cols-3 gap-3">
                 <Card className="p-4 bg-gradient-to-br from-[#78c1ec] to-[#1c98d4] border-none shadow-md hover:shadow-lg transition-shadow">
-                  <div className="flex sm:flex-col items-center sm:text-center gap-3 sm:gap-0">
-                    <Coins className="h-6 w-6 sm:h-8 sm:w-8 text-white sm:mb-2" />
+                  <div className="flex flex-col items-center text-center gap-0">
+                    <Coins className="h-6 w-6 sm:h-8 sm:w-8 text-white mb-2" />
                     <p className="text-sm font-medium text-white">Baixo investimento</p>
                   </div>
                 </Card>
 
                 <Card className="p-4 bg-gradient-to-br from-[#78c1ec] to-[#1c98d4] border-none shadow-md hover:shadow-lg transition-shadow">
-                  <div className="flex sm:flex-col items-center sm:text-center gap-3 sm:gap-0">
-                    <TrendingUp className="h-6 w-6 sm:h-8 sm:w-8 text-white sm:mb-2" />
+                  <div className="flex flex-col items-center text-center gap-0">
+                    <TrendingUp className="h-6 w-6 sm:h-8 sm:w-8 text-white mb-2" />
                     <p className="text-sm font-medium text-white">Modelo eficiente</p>
                   </div>
                 </Card>
 
                 <Card className="p-4 bg-gradient-to-br from-[#78c1ec] to-[#1c98d4] border-none shadow-md hover:shadow-lg transition-shadow">
-                  <div className="flex sm:flex-col items-center sm:text-center gap-3 sm:gap-0">
-                    <Timer className="h-6 w-6 sm:h-8 sm:w-8 text-white sm:mb-2" />
+                  <div className="flex flex-col items-center text-center gap-0">
+                    <Timer className="h-6 w-6 sm:h-8 sm:w-8 text-white mb-2" />
                     <p className="text-sm font-medium text-white">Retorno rápido</p>
                   </div>
                 </Card>
