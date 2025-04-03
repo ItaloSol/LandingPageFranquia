@@ -75,19 +75,19 @@ export function HeroSection() {
             </div>
             <div className="block lg:hidden" >
               <span className="block text-lg text-black font-semibold" >
-                Processos Inteligentes
+              Baixo investimento
               </span>
               <span className="block text-orange-500 font-bold" >
                 +
               </span>
               <span className="block text-lg text-black font-semibold" >
-                Talentos Competentes
+              Modelo de negócio eficiente e lucrativo
               </span>
               <span className="block text-orange-500 font-bold" >
                 =
               </span>
               <span className="block text-lg text-black font-semibold" >
-                Resultados Acelerados
+              retorno mais rápido
               </span>
             </div>
           </div>
