@@ -9,6 +9,11 @@ export function HeroSection() {
 
   return (
     <section className="relative bg-blue-400/10 min-h-[calc(100vh-4rem)] flex items-center py-12 md:py-0">
+      {/* Top banner */}
+      <div className="absolute top-0 left-0 right-0 bg-gradient-to-r from-green-400 to-green-600 text-white text-center py-2 font-bold text-lg shadow-md">
+        Única franquia com Payback de 3 meses
+      </div>
+      
       {/* Layered background with subtle patterns */}
       <div className="absolute  inset-0  from-white to-gray-50" />
       <div className="absolute  inset-0  opacity-30" />
@@ -40,34 +45,50 @@ export function HeroSection() {
                 </Button>
               </div>
 
-              <div className="grid grid-cols-3 sm:grid-cols-3 gap-3">
-                <Card className="p-4 bg-gradient-to-br from-[#78c1ec] to-[#1c98d4] border-none shadow-md hover:shadow-lg transition-shadow">
-                  <div className="flex flex-col items-center text-center gap-0">
-                    <Coins className="h-6 w-6 sm:h-8 sm:w-8 text-white mb-2" />
-                    <p className="text-sm font-medium text-white">Baixo investimento</p>
-                  </div>
-                </Card>
-
-                <Card className="p-4 bg-gradient-to-br from-[#78c1ec] to-[#1c98d4] border-none shadow-md hover:shadow-lg transition-shadow">
-                  <div className="flex flex-col items-center text-center gap-0">
-                    <TrendingUp className="h-6 w-6 sm:h-8 sm:w-8 text-white mb-2" />
-                    <p className="text-sm font-medium text-white">Modelo eficiente</p>
-                  </div>
-                </Card>
-
-                <Card className="p-4 bg-gradient-to-br from-[#78c1ec] to-[#1c98d4] border-none shadow-md hover:shadow-lg transition-shadow">
-                  <div className="flex flex-col items-center text-center gap-0">
-                    <Timer className="h-6 w-6 sm:h-8 sm:w-8 text-white mb-2" />
-                    <p className="text-sm font-medium text-white">Retorno rápido</p>
-                  </div>
-                </Card>
-              </div>
+              
             </div>
-
+            
             <div className="relative h-[200px] sm:h-[300px] lg:h-[600px] rounded-2xl overflow-hidden shadow-2xl w-full bg-gray-100">
               <div className="flex items-center justify-center h-full text-gray-400">
                 VSL ou Imagem 
               </div>
+            </div>
+
+          </div>
+          <div className="text-center">
+            <div className="hidden lg:flex lg:justify-center py-6" >
+              <span className="text-2xl text-black font-semibold" >
+                Processos Inteligentes
+              </span>
+              <span className="text-orange-500 text-2xl font-bold" >
+                +
+              </span>
+              <span className="text-2xl text-black font-semibold" >
+                Talentos Competentes
+              </span>
+              <span className="text-orange-500 text-2xl font-bold" >
+                =
+              </span>
+              <span className="text-2xl text-black font-semibold" >
+                Resultados Acelerados
+              </span>
+            </div>
+            <div className="block lg:hidden" >
+              <span className="block text-lg text-black font-semibold" >
+                Processos Inteligentes
+              </span>
+              <span className="block text-orange-500 font-bold" >
+                +
+              </span>
+              <span className="block text-lg text-black font-semibold" >
+                Talentos Competentes
+              </span>
+              <span className="block text-orange-500 font-bold" >
+                =
+              </span>
+              <span className="block text-lg text-black font-semibold" >
+                Resultados Acelerados
+              </span>
             </div>
           </div>
         </div>
