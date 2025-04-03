@@ -58,19 +58,19 @@ export function HeroSection() {
           <div className="text-center">
             <div className="hidden lg:flex lg:justify-center py-6" >
               <span className="text-2xl text-black font-semibold" >
-                Processos Inteligentes
+              Baixo investimento
               </span>
               <span className="text-orange-500 text-2xl font-bold" >
                 +
               </span>
               <span className="text-2xl text-black font-semibold" >
-                Talentos Competentes
+              Modelo de negócio eficiente e lucrativo
               </span>
               <span className="text-orange-500 text-2xl font-bold" >
                 =
               </span>
               <span className="text-2xl text-black font-semibold" >
-                Resultados Acelerados
+              retorno mais rápido
               </span>
             </div>
             <div className="block lg:hidden" >
