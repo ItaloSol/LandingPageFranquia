@@ -2,10 +2,10 @@ import React from 'react';
 
 const TermosECondicoes = () => {
   return (
-    <div className="container mx-auto py-12">
-      <h1 className="text-3xl font-bold mb-4">Termos e Condições</h1>
-      <p>Data de Vigência: 01 de abril de 2025</p>
-      <div className="space-y-4">
+    <div style={{ maxWidth: '800px', margin: '0 auto', padding: '20px' }}>
+      <h1 style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '1rem' }}>Termos e Condições</h1>
+      <p style={{ marginBottom: '1rem' }}>Data de Vigência: 01 de abril de 2025</p>
+      <div style={{ marginBottom: '2rem' }}>
         <div>
           <h3 className="font-semibold">1. Aceitação dos Termos</h3>
           <p>Ao utilizar o PAi TEC, você concorda em cumprir estes Termos e Condições.</p>
@@ -36,6 +36,12 @@ const TermosECondicoes = () => {
           <p>Para qualquer dúvida, entre em contato pelo e-mail: globalmonitoramentointeligente@gmail.com.</p>
         </div>
       </div>
+      <button
+    style={{ backgroundColor: '#3b82f6', color: 'white', padding: '10px 20px', borderRadius: '5px', transition: 'background-color 0.3s' }}
+    onClick={() => window.location.href = '/'}
+  >
+    Voltar
+  </button>
     </div>
   );
 };
