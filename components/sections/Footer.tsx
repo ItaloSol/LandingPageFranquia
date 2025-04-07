@@ -45,12 +45,12 @@ export function Footer() {
               <h3 className="text-xl font-semibold mb-4">Termos</h3>
               <div className="flex gap-4">
                 <div className="space-y-2">
-                  <a href="/politicas-de-privacidade" className="flex items-center gap-2 hover:text-green-400 transition-colors">
+                  <a href="/politicas-de-privacidade.html" className="flex items-center gap-2 hover:text-green-400 transition-colors">
                     <FileText className="w-4 h-4" />
                     <span>Política de Privacidade</span>
                   </a>
 
-                  <a href="/termos-e-condicoes" className="flex items-center gap-2 hover:text-green-400 transition-colors">
+                  <a href="/termos-e-condicoes.html" className="flex items-center gap-2 hover:text-green-400 transition-colors">
                     <FileText className="w-4 h-4" />
                     <span>Termos e Condições</span>
                   </a>
