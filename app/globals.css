@@ -93,10 +93,10 @@
 .bg-bolinha {
   background: repeating-linear-gradient(
     45deg,
-    rgba(224, 224, 224, 0.7) 0px,
-    rgba(255, 255, 255, 0.7) 80px,
-    transparent 80px,
-    transparent 160px
+    rgba(224, 224, 224, 0.5) 0px,
+    rgba(255, 255, 255, 0.5) 80px ,
+    transparent 900px,
+    transparent 360px
   );
 }
 
