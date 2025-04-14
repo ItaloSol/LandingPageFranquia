@@ -29,13 +29,21 @@ export function SecuritySection() {
             Veje o que nossos franqueados estão falando sobre ser dono de uma PaiTec
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            {[1, 2].map((i) => (
-              <Card key={i} className="overflow-hidden bg-gradient-to-br from-[#000000] to-[#005E86]">
-                <div className="aspect-video bg-gray-800 flex items-center justify-center text-white">
-                  Prova Social {i}
-                </div>
-              </Card>
-            ))}
+            <Card className="overflow-hidden bg-gradient-to-br from-[#000000] to-[#005E86]">
+              <div className="aspect-video bg-gray-800 flex items-center justify-center text-white">
+                Prova Social 1
+              </div>
+            </Card>
+            <div className="aspect-[9/16] w-full overflow-hidden rounded-lg">
+              <iframe 
+                className="w-full h-full" 
+                src="https://www.youtube.com/embed/n4LLzssoAAs" 
+                title="YouTube video player" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen>
+              </iframe>
+            </div>
           </div>
         </div>
       </div>
