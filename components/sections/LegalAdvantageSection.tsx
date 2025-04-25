@@ -5,7 +5,7 @@ import { Card } from "@/components/ui/card";
 
 export function LegalAdvantageSection() {
   return (
-    <section className=" bg-bolinha from-white to-gray-50">
+    <section className="from-white to-gray-50">
        <div className="bg-blue-400/50 py-20">
       <div className="container px-4 mx-auto">
         <div className="max-w-6xl mx-auto">
