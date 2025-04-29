@@ -55,12 +55,7 @@ export function ProblemsSection() {
                     Demora para retornar o investimento feito na franquia
                   </p>
                 </li>
-                <li className="flex items-start gap-3">
-                  <span className="mt-2.5 block w-2 h-2 rounded-full bg-green-600 flex-shrink-0" />
-                  <p className="text-base sm:text-lg text-gray-700">
-                    Insegurança se o investimento vai se pagar, medo do negócio dar errado depois do segundo ano (74,5% das franquias no Brasil fecham após o 18º mês)
-                  </p>
-                </li>
+                
               </ul>
             </div>
 

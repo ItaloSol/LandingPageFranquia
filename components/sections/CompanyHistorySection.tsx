@@ -29,7 +29,7 @@ export function CompanyHistorySection() {
                   </p>
                   <p className="text-gray-700 text-lg leading-relaxed">
                     Leandro Pinheiro, fundador da PaiTec, é pai solo da Laura uma criança muito amada. Leandro sempre teve uma preocupação 
-                    constante com a segurança da filha na escola. As reclamações frequentes da Laura acenderam um alerta de grande preocupação: 
+                    constante com a segurança da filha na escola. 
                     o ambiente escolar, que deveria ser um espaço de aprendizado e acolhimento, nem sempre oferecia a proteção necessária e 
                     muitas vezes oferece risco físico e emocional.
                   </p>
