@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/dialog";
 import Image from "next/image";
 export function Footer() {
-  const whatsappLink = "https://wa.me/5521931804468?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
+  const whatsappLink = "https://wa.me/552131804468?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
 
   return (
     <footer className="bg-gray-900 text-white py-12">
@@ -62,7 +62,7 @@ export function Footer() {
                 <div className="flex items-center gap-2">
                   <Phone className="w-5 h-5 text-green-400" />
                   <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition-colors">
-                  (21) 93180-4468
+                  (21) 3180-4468
                   </a>
                 </div>
                 <div className="flex items-center gap-2">

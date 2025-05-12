@@ -59,7 +59,7 @@ const benefits = [
 ];
 
 export function BenefitsSection() {
-  const whatsappLink = "https://wa.me/5521931804468?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
+  const whatsappLink = "https://wa.me/552131804468?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
 
   useEffect(() => {
     const cards = document.querySelectorAll(".benefit-card");

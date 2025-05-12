@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export function ProblemsSection() {
-  const whatsappLink = "https://wa.me/5521931804468?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
+  const whatsappLink = "https://wa.me/552131804468?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
 
   return (
     <section className=" bg-bolinha relative ">

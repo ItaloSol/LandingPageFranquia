@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
 export function HeroSection() {
-  const whatsappLink = "https://wa.me/5521931804468?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
+  const whatsappLink = "https://wa.me/552131804468?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
 
   return (
     <section className="relative bg-blue-400 bg-bolinha min-h-[calc(100vh-4rem)] grid grid-rows-[1fr_auto] py-12 ">
