@@ -33,7 +33,7 @@ const TermosECondicoes = () => {
         </div>
         <div>
           <h3 className="font-semibold">7. Contato</h3>
-          <p>Para qualquer dúvida, entre em contato pelo e-mail: globalmonitoramentointeligente@gmail.com.</p>
+          <p>Para qualquer dúvida, entre em contato pelo e-mail: contato@paitec.site.</p>
         </div>
       </div>
       <button

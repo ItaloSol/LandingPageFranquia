@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
 export function HeroSection() {
-  const whatsappLink = "https://wa.me/5521967392513?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
+  const whatsappLink = "https://wa.me/5521931804468?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
 
   return (
     <section className="relative bg-blue-400 bg-bolinha min-h-[calc(100vh-4rem)] grid grid-rows-[1fr_auto] py-12 ">
@@ -19,7 +19,7 @@ export function HeroSection() {
                 alt="Logo PaiTec"
                 width={128}
                 height={128}
-                className="mx-auto mb-4 w-32 h-auto"
+                className="mx-auto mb-4 h-40 w-auto"
                 priority
               />
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">

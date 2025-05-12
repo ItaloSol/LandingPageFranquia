@@ -37,7 +37,7 @@ const PoliticasDePrivacidade = () => {
         </div>
         <div style={{ marginBottom: '1rem' }}>
           <h3 style={{ fontWeight: '600' }}>7. Contato</h3>
-          <p>Para dúvidas relacionadas à privacidade, entre em contato pelo e-mail: globalmonitoramentointeligente@gmail.com.</p>
+          <p>Para dúvidas relacionadas à privacidade, entre em contato pelo e-mail: contato@paitec.site.</p>
         </div>
       </div>
       <button

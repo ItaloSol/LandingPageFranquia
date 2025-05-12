@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/dialog";
 import Image from "next/image";
 export function Footer() {
-  const whatsappLink = "https://wa.me/5521967392513?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
+  const whatsappLink = "https://wa.me/5521931804468?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
 
   return (
     <footer className="bg-gray-900 text-white py-12">
@@ -25,12 +25,13 @@ export function Footer() {
                   alt="PaiTec Logo"
                   width={64}
                   height={64}
-                  className="h-16"
+                  className="h-16 w-auto"
                   priority
                 />
               </div>
               <p className="text-gray-400 mb-4">
-                Transformando a segurança nas escolas através da tecnologia e do cuidado.
+                Desde 2020, a PaiTec tem como missão oferecer soluções inovadoras e eficientes para a segurança nas escolas.
+               
               </p>
 
             </div>
@@ -61,13 +62,13 @@ export function Footer() {
                 <div className="flex items-center gap-2">
                   <Phone className="w-5 h-5 text-green-400" />
                   <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition-colors">
-                    (21) 96739-2513
+                  (21) 93180-4468
                   </a>
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="w-5 h-5 text-green-400" />
                   <a href="mailto:contato@paitec.com.br" className="hover:text-green-400 transition-colors">
-                    globalmonitoramentointeligente@gmail.com
+                  contato@paitec.site
                   </a>
                 </div>
                 <div className="flex items-start gap-2">
@@ -79,7 +80,7 @@ export function Footer() {
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>© {new Date().getFullYear()} PaiTec. Todos os direitos reservados.</p>
+            <p>PaiTec © Todos os direitos reservados.</p>
           </div>
         </div>
       </div>
