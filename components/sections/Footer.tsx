@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, MapPin, Phone, FileText } from "lucide-react";
+import { Mail, MapPin, Phone, FileText, Download, Globe } from "lucide-react";
 import {
   Dialog,
   DialogContent,
@@ -11,6 +11,8 @@ import {
 import Image from "next/image";
 export function Footer() {
   const whatsappLink = "https://wa.me/552131804468?text=Olá! Gostaria de saber mais sobre a franquia PaiTec.";
+  const playstoreLink = "https://play.google.com/store/apps/details?id=com.paitec.app";
+  const webAccessLink = "https://privacidadepaitec.store:8443/login";
 
   return (
     <footer className="bg-gray-900 text-white py-12">
@@ -31,9 +33,27 @@ export function Footer() {
               </div>
               <p className="text-gray-400 mb-4">
                 Desde 2020, a PaiTec tem como missão oferecer soluções inovadoras e eficientes para a segurança nas escolas.
-               
               </p>
-
+              <div className="space-y-3">
+                <a 
+                  href={playstoreLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-green-400 hover:text-green-300 transition-colors"
+                >
+                  <Download className="w-5 h-5" />
+                  <span>Baixe nosso aplicativo na Play Store</span>
+                </a>
+                <a 
+                  href={webAccessLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-green-400 hover:text-green-300 transition-colors"
+                >
+                  <Globe className="w-5 h-5" />
+                  <span>Acesse pelo navegador Web</span>
+                </a>
+              </div>
             </div>
 
             {/* Social Links */}
