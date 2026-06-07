@@ -98,7 +98,32 @@ export function Footer() {
               </div>
             </div>
           </div>
-
+<div className="mt-8 pt-8">
+          <h3 className="text-brand-on-dark/60 text-xs font-semibold uppercase tracking-widest text-center mb-4">
+            Parcerias
+          </h3>
+          <div className="grid grid-cols-2 justify-items-center gap-4 mb-6 sm:flex sm:flex-row sm:justify-center sm:gap-8">
+            
+            <div className="flex flex-col items-center gap-2">
+              {/* <span className="text-brand-on-dark/40 text-xs uppercase tracking-wider">Apoio</span> */}
+              <img
+                src="/logo-sebrae.png"
+                alt="Sebrae"
+                className="h-10 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity"
+              />
+            </div>
+            <div className="hidden sm:block w-px h-12 bg-brand-card" />
+            <div className="flex flex-col items-center gap-2">
+              {/* <span className="text-brand-on-dark/40 text-xs uppercase tracking-wider">Parceria</span> */}
+              <img
+                src="/logo-amazon.svg"
+                alt="Amazon"
+                className="h-10 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity"
+              />
+            </div>
+          </div>
+         
+        </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>PaiTec © Todos os direitos reservados.</p>
           </div>
