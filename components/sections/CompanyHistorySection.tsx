@@ -16,16 +16,8 @@ export function CompanyHistorySection() {
             Conheça um pouco sobre a nossa história
           </h2>
           
-          <div className="grid md:grid-cols-2 gap-12 items-stretch">
-            <div className="relative w-full aspect-[9/16] md:aspect-[4/5] rounded-2xl overflow-hidden flex shadow-2xl">
-              <Image
-                src="/ultima-parte.webp"
-                alt="História da PaiTec"
-                fill
-                className="object-contain"
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
-            </div>
+          <div className="grid md:grid-cols-1 gap-12 items-stretch">
+            
 
             <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-8 shadow-lg flex flex-col justify-center h-full">
               <div className="space-y-8">

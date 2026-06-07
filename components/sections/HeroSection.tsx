@@ -38,7 +38,7 @@ export function HeroSection() {
  <div className="relative aspect-[9/16] w-full max-h-[600px] rounded-2xl overflow-hidden shadow-2xl bg-gray-100 mx-auto my-6 lg:my-0 lg:w-1/2">
                 <iframe
                   className="absolute inset-0 w-full h-full"
-                  src="https://www.youtube.com/embed/vGPhVLLJX0M"
+                  src="https://www.youtube.com/embed/7eRcoUd-DPw"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
